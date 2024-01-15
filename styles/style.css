@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
 *{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     margin:0;
     padding:0;
 }
@@ -32,6 +32,7 @@ nav{
    align-items: center;
    justify-content: space-between;
    margin-bottom:80px;
+ 
 }
 nav ul{
     display: flex;
@@ -63,7 +64,7 @@ nav a{
    background-position: right;
 }
 .banner-content{
-    width:50%;
+   
     margin-right:100px;
    
 }
