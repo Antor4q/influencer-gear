@@ -2,24 +2,36 @@
 
 *{
     font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
 }
 /* sheared styles */
  :root{
     --primary-color:#3A3A3A;
+    --font-size:28px;
  }
- body{
-    max-width: 1440px;
-    margin:0 auto;
+ .btn-primary{
+    border-radius: 41px;
+    background: #E02C6D;
+    
+    gap:8px;
+    padding:10px 24px;
+    border:none;
+    color:#FFF;
+    font-weight: 700;
  }
 /* header styles */
 header{
     padding:80px 120px;
+    max-width: 1440px;
+    margin:0 auto;
     
 }
 nav{
     display:flex;
    align-items: center;
    justify-content: space-between;
+   margin-bottom:80px;
 }
 nav ul{
     display: flex;
@@ -39,3 +51,34 @@ nav a{
     font-size: 1.5rem;
     font-weight: 700;
 }
+/* banner styles */
+.banner{
+    display:flex;
+   justify-content: space-between;
+   height:400px;
+   align-items: center;
+   padding:60px 0px;
+   background-image: url(/images/Circle\ design.svg);
+   background-repeat: no-repeat;
+   background-position: right;
+}
+.banner-content{
+    width:50%;
+    margin-right:100px;
+   
+}
+.banner-content h1{
+    color:var(--primary-color);
+    font-size: 3.25rem;
+    font-weight: 700;
+}
+.banner-content p{
+    color:var(--primary-color);
+    font-weight: 600;
+    margin-bottom:10px;
+}
+.banner-img{
+   margin-right:30px;
+   
+}
+
